@@ -26,7 +26,8 @@ This guide shows how to utilize ZeroTier VPN and network management tools on a W
 ```
 docker run --name myzerotier --restart=unless-stopped --net=host --cap-add NET_ADMIN --device /dev/net/tun zerotier/zerotier:latest **yourNetworkID**
 ```
- ![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/f2d6a57e-82b4-4c13-b69f-3e0f4648570d)
+![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/2c4b0b95-4fe0-45ba-9836-7757e6001bc2)
+
 
 5. You should the container start to download and build. Once it is complete, you will see “Sleeping infinitely”. 
 
