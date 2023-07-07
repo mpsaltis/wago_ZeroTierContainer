@@ -1,13 +1,13 @@
 # wago_ZeroTierContainer
 This guide shows how to utilize ZeroTier VPN and network management tools on a WAGO Linux Controller. Zerotier can also be downloaded to a PC and used as a remote monitoring tool for the PLC and Codesys. 
 
-*** ZeroTier Configuration
+### ZeroTier Configuration
 1. Create a ZeroTier Account
 2. Create a network and find the Network ID. You will use this ID in your Docker Run Command
 
 ![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/681f096f-3a34-4493-95b5-cfa994e79696)
 
-*** WAGO Device Configuration
+### WAGO Device Configuration
 1. Connect the WAGO Controller (Edge Controller, TP600, PFC200)  to the internet. You will also need to set the clock correctly, by enabling NTP client.
 
    ![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/1b31c407-7e13-4c10-b791-9572ff884c7a)
