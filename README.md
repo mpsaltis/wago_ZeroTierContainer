@@ -5,7 +5,8 @@ This guide shows how to utilize ZeroTier VPN and network management tools on a W
 1. Create a ZeroTier Account
 2. Create a network and find the Network ID. You will use this ID in your Docker Run Command
 
-![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/681f096f-3a34-4493-95b5-cfa994e79696)
+![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/665ef967-7437-4692-bb22-25665be0e8e6)
+
 
 ### WAGO Device Configuration
 1. Connect the WAGO Controller (Edge Controller, TP600, PFC200)  to the internet. You will also need to set the clock correctly, by enabling NTP client.
