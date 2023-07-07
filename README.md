@@ -21,7 +21,7 @@ This guide shows how to utilize ZeroTier VPN and network management tools on WAG
 
  ![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/e10a96be-1f3a-4cff-82af-0a3e26cdffb0)
  
-   ***Anytime a device is connected to the internet, it is important to change the password for the all users. With WAGO devices FW20 and greater, the users root, admin and user should all be updated with new passwords. To do so, use the the command passwd to update these passwords. Note- This will also update passwords form the WBM and Codesys runtime***
+   ***Anytime a device is connected to the internet, it is important to change the password for the all users. The users root, admin and user should all be updated with new passwords.Depending on the firmware on your device, the number of places these are updated may vary. In the terminal, use the the command passwd to update these passwords. Note- for newer firmwares, will also update passwords for the WBM and Codesys runtime***
 
 ![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/614f9f85-7128-4ef6-956f-1b17a9822cf9)
 
