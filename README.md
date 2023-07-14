@@ -33,12 +33,12 @@ docker run --name myzerotier --restart=unless-stopped --net=host --cap-add NET_A
 ![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/2c4b0b95-4fe0-45ba-9836-7757e6001bc2)
 
 
-5. You should the container start to download and build. Once it is complete, you will see “Sleeping infinitely”. 
+5. You should see the container start to download and build. Once it is complete, you will see “Sleeping infinitely”. 
 
   ![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/d0426dd5-3d72-4682-b3e9-ac436e7971ce)
 
 6.	Close the command prompt
 
-7.	After the container is running, you will see a new device populate as a member. To allow this device access to the netowrk, you will need to select the checkbox under the Auth? Column. You can the test the connection abd access the device with the Managed IP address that it was assigned.
+7.	After the container is running, you will see a new device populate as a member. To allow this device access to the netowrk, you will need to select the checkbox under the Auth? Column. You can the test the connection and access the device with the  IP address that it was assigned.
 
 ![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/dc6eb501-0e62-456a-a308-7bfcdee6ae5a)
