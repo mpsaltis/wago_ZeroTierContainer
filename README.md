@@ -28,7 +28,7 @@ This guide shows how to utilize ZeroTier VPN and network management tools on WAG
 
 9. Enter the following command to pull the docker image, and start a container. Add your networkID at the end of the command shown below.
 ```
-docker run --name myzerotier --restart=unless-stopped --net=host --cap-add NET_ADMIN --device /dev/net/tun zerotier/zerotier:latest **yourNetworkID**
+docker run --name myzerotier --restart=unless-stopped --net=host --cap-add NET_ADMIN --device /dev/net/tun zerotier/zerotier:latest yourNetworkID
 ```
 ![image](https://github.com/mpsaltis/wago_ZeroTierContainer/assets/90796089/2c4b0b95-4fe0-45ba-9836-7757e6001bc2)
 
